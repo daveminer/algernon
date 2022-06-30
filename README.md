@@ -10,4 +10,4 @@ Install the deps: `mix deps.get`
 
 Start an IEX session: `iex -S mix`
 
-Run the test model: `Algernon.start()`
+Run the test model: `iex(1)> Algernon.start()`
