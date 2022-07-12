@@ -1,6 +1,7 @@
-defmodule Algernon do
+defmodule BasicExample do
   @moduledoc """
-  Documentation for `Algernon`.
+  Basic example of multiple inputs (from the Axon documentation)
+  https://github.com/elixir-nx/axon/blob/main/examples/basics/multi_input_example.exs
   """
 
   require Axon
@@ -30,8 +31,7 @@ defmodule Algernon do
   end
 
   def start do
-    # nil measn the value will be provided later (done on the next line)
-
+    # nil means the value will be provided later (done on the next line)
     model = build_model({nil, 1}, {nil, 1})
     data = Stream.repeatedly(&batch/0)
 

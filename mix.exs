@@ -22,6 +22,7 @@ defmodule Algernon.MixProject do
   defp deps do
     [
       {:axon, "~> 0.1.0"},
+      {:csv, "~> 2.4"},
       {:exla, "~> 0.2.2"},
       {:nx, "~> 0.2.1"}
     ]
