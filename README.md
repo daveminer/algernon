@@ -4,6 +4,16 @@ Demonstrations of [Axon](https://github.com/elixir-nx/axon) and [Nx](https://git
 
 # Environment Setup
 
+## Docker Environment Instructions
+
+Build the container: `make build`
+
+Run the container and enter the iex shell: `make demo`
+
+Run an example: `BasicExample.start()` or `SimpleMovingAverage.start()`
+
+## Native Instructions
+
 ```
 brew install openssl@1.1 kerl gnupg \
   coreutils automake libyaml \
